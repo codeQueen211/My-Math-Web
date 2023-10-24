@@ -23,7 +23,7 @@ function openPDF(){
     // // Append the document to the current page
     // document.body.appendChild(html);
     const webpage="GamesPage.html";
-    window.open(htmlDocument, "_blank");
+    window.open(webpage, "_blank");
 }
 function openTests(){
     const webpage="GamesPage.html";
