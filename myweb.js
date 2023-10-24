@@ -19,6 +19,9 @@ function sendMail() {
 
         })
         .catch(err => console.log(err));
+        const newPageUrl= "saraDemo.html";
+        window.open(newPageUrl,"_blank")
 
 }
+
 
