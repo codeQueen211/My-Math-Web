@@ -105,10 +105,16 @@ function nextQuestion(){
     if(currentQuestion >= questions.length){
     const Restart =document.getElementById("restart").textContent= "RESTART QUIZ ↺ ";
     document.getElementById("restart").style.display = "block";
+    document.getElementById("nextPage").textContent= "NEXT PAGE"
+    document.getElementById("nextPage").style.display = "block";
      }
 }
 function RestartQuiz(){
     window.location.reload();
+}
+function NextPage(){
+    const newPageURL="mywebp2.html";
+    window.open(newPageURL,"_self");
 }
 
 RevealQuestion();//we call this function bc it's the only one without the onclick feature
