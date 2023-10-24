@@ -115,7 +115,7 @@ function RestartQuiz(){
     window.location.reload();
 }
 function NextPage(){
-    const newPageURL="mywebp2.html";
+    const newPageURL="mainPage.html";
     window.open(newPageURL,"_self");
 }
 
