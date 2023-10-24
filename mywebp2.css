@@ -9,14 +9,19 @@ body {
   display: grid; /* Use a grid layout */
   grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
   grid-template-rows: repeat(2, auto); /* Create 2 rows */
-  gap: 5px; /* Adjust the gap between buttons */
+  gap: 30px; /* Adjust the gap between buttons */
   justify-items: center; /* Center horizontally within each grid cell */
   align-items: center; /* Center vertically within each grid cell */
 }
 .manual button{
-    margin: 5px; /* Add spacing between buttons */
-    padding: 20px 20px;
-    flex: 1 0 calc(33.33% - 10px);
+    width: 250px; /* Set a fixed width for all buttons */
+    height: 250px; /* Set a fixed height for all buttons */
+    border-radius: 50%; /* Ensure buttons remain circular */
+    text-align: center; /* Center the text horizontally */
+    padding: 0; /* Remove padding */
+    border: none;
+    transition: all 0.3s;
+    font-size: 20px;
 
 }
 #op1,#op2,#op3,#op4,#op5,#op6{

@@ -105,8 +105,10 @@ function nextQuestion(){
     if(currentQuestion >= questions.length){
     const Restart =document.getElementById("restart").textContent= "RESTART QUIZ ↺ ";
     document.getElementById("restart").style.display = "block";
-    document.getElementById("nextPage").textContent= "NEXT PAGE"
-    document.getElementById("nextPage").style.display = "block";
+    if(Score>= (currentQuestion/2)){
+        document.getElementById("nextPage").textContent= "NEXT PAGE"
+        document.getElementById("nextPage").style.display = "block";
+    }
      }
 }
 function RestartQuiz(){
