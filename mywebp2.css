@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to right, #00608F, #7bafc7);
+}
+.manual{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid; /* Use a grid layout */
+  grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+  grid-template-rows: repeat(2, auto); /* Create 2 rows */
+  gap: 5px; /* Adjust the gap between buttons */
+  justify-items: center; /* Center horizontally within each grid cell */
+  align-items: center; /* Center vertically within each grid cell */
+}
+.manual button{
+    margin: 5px; /* Add spacing between buttons */
+    padding: 20px 20px;
+    flex: 1 0 calc(33.33% - 10px);
+
+}
+#op1,#op2,#op3,#op4,#op5,#op6{
+    color: #c2d1d7;
+    border-radius: 50%;
+    width: 320px;
+    border: none;
+    padding: 100px;
+    transition: all 0.3s;
+    font-size: 20px;
+    /* opacity: 0.6; */
+}
+#op1{
+    /* background-color: #e62222; */
+    background: linear-gradient(to right,  #e62222, #a87373);
+}
+#op2{
+    /* background-color: #e73838;  */
+    background: linear-gradient(to right,  #e73838, #a87373);
+}
+#op3{
+    /* background-color: #e94b4b;   */
+    background: linear-gradient(to right,  #e94b4b, #a87373);
+}
+#op4{
+    /* background-color: #dd6060; */
+    background: linear-gradient(to right,  #dd6060, #a87373); 
+}
+#op5{
+    /* background-color: #dc7272;  */
+    background: linear-gradient(to right,  #dc7272, #a87373);
+}
+#op6{
+    /* background-color: #c78686; */
+    background: linear-gradient(to right,  #c78686, #a87373); 
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #7bafc7;
+    color: #00608F;
+    transform: translateY(-10px);
+    /* opacity: 1; */
+}
