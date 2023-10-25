@@ -1,2 +1,2 @@
 # mywebFull
-![frontpagephoto](./myweb/frontpagephoto.png)
+![front page photo](./frontpagephoto.png)
